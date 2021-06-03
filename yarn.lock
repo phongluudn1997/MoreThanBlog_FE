@@ -1923,6 +1923,11 @@
   dependencies:
     "source-map" "^0.6.1"
 
+"@types/webpack-env@^1.16.0":
+  "integrity" "sha512-Fx+NpfOO0CpeYX2g9bkvX8O5qh9wrU1sOF4g8sft4Mu7z+qfe387YlyY8w8daDyDsKY5vUxM0yxkAYnbkRbZEw=="
+  "resolved" "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.0.tgz"
+  "version" "1.16.0"
+
 "@types/webpack-sources@*":
   "integrity" "sha512-LXn/oYIpBeucgP1EIJbKQ2/4ZmpvRl+dlrFdX7+94SKRUV3Evy3FsfMZY318vGhkWUS5MPhtOM3w1/hCOAOXcg=="
   "resolved" "https://registry.npmjs.org/@types/webpack-sources/-/webpack-sources-2.1.0.tgz"
