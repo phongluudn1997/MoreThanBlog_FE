@@ -1,6 +1,6 @@
-import { useAppSelector, useAppDispatch } from "../../app/hooks";
+import { useAppSelector, useAppDispatch } from "@redux/hooks";
 
-import { decrement, increment } from "./counterSlice";
+import { decrement, increment } from "@redux/slices/counterSlice";
 
 export function Counter() {
   // The `state` arg is correctly typed as `RootState` already
