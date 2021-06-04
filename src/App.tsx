@@ -8,6 +8,11 @@ function App() {
       <main>
         <AppRoutes />
       </main>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `<h1 class="text-yellow-500">Test</h1>`,
+        }}
+      ></div>
     </div>
   );
 }
