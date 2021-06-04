@@ -3,7 +3,7 @@ import { Nav } from "components/Nav";
 
 function App() {
   return (
-    <div style={{ padding: "0 8rem" }}>
+    <div style={{ padding: "0 80px" }}>
       <Nav />
       <main>
         <AppRoutes />
