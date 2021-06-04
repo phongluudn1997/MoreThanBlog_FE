@@ -1,6 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import rootReducer from "./reducers";
 
+// @TODO: Implement Hot Module Replace for redux
 function configureAppStore() {
   const store = configureStore({
     reducer: rootReducer,

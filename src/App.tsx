@@ -3,9 +3,11 @@ import { Nav } from "components/Nav";
 
 function App() {
   return (
-    <div>
+    <div style={{ padding: "0 8rem" }}>
       <Nav />
-      <AppRoutes />
+      <main>
+        <AppRoutes />
+      </main>
     </div>
   );
 }
