@@ -1,0 +1,28 @@
+.tab {
+  position: relative;
+}
+
+.tab::before {
+  content: "";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  @apply bg-gray-200;
+  top: -0.15rem;
+  right: -0.5rem;
+  border-radius: 50%;
+  transition: 0.2s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.tab:hover.tab::before {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tab.active.tab::before {
+  visibility: visible;
+  opacity: 1;
+  @apply bg-yellow-400;
+}
